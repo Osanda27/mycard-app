@@ -1,0 +1,205 @@
+.packageContainer {
+    display: flex;
+    max-width: 364px;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    letter-spacing: -0.3px;
+    gap: 20px;
+  }
+  
+  .packageCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+    aspect-ratio: 0.929;
+    width: 100%;
+    padding: 14px 1px 0 13px;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .packageInfo {
+    position: relative;
+    align-self: start;
+    display: flex;
+    align-items: start;
+    gap: 40px 70px;
+    margin-top: -2px;
+  }
+  
+  .availabilityInfo {
+    display: flex;
+    margin-top: 18px;
+    flex-direction: column;
+  }
+  
+  .seatsAvailable {
+    color: #333;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-left: -4px;
+    white-space: nowrap;
+  }
+  
+  .priceInfo {
+    font-weight: 600;
+    margin-right: -4px;
+    padding-right: 20px;
+    text-align: left;
+    margin-top: -10px;
+  }
+  
+  .priceAmount {
+    font-size: 30px;
+    color: #f79e1b;
+  }
+  
+  .priceUnit {
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+  }
+  
+  .packageDescription {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 35px;
+    padding: 0 13px 0 6px;
+  }
+  
+  .packageDetails {
+    position: relative;
+    display: flex;
+    margin-top: 164px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .detailsWrapper {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto 0;
+  }
+  
+  .packageTitle {
+    font-size: 16px;
+    align-self: stretch;
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .packageCategory {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    justify-content: start;
+  }
+  
+  .categoryIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 15px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .categoryText {
+    align-self: stretch;
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .packageDuration {
+    margin-top: 11px;
+  }
+  
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .packageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Inter, sans-serif;
+    letter-spacing: -0.3px;
+  }
+
+/*added newly*/
+  .bookingButton {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border-color: transparent;
+    position: relative;
+    width: 175px; /* Fixed width */
+    height: auto; /* Auto height */
+    align-items: center;
+    text-align: center;
+    margin: 14px 0 0 3px;
+    padding: 20px; /* Adjust padding */
+    background-color: transparent; /* Change color or image */
+    overflow: hidden; /* Ensure content stays within the button */
+    z-index: 0;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px; /* Rounded corners */
+    z-index: 0;
+  }
+  
+  .bookingIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 31px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    z-index: 1;
+  }
+  
+  .bookingText {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff
+  }
+  
+  
+  
